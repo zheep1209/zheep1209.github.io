@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>记录一次因批操作引发的问题</title>
+    <link href="/2025/03/13/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E5%9B%A0%E6%89%B9%E6%93%8D%E4%BD%9C%E5%BC%95%E5%8F%91%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <url>/2025/03/13/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E5%9B%A0%E6%89%B9%E6%93%8D%E4%BD%9C%E5%BC%95%E5%8F%91%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+    
+    <content type="html"><![CDATA[<h1 id="记录LOCK-WRITE报错"><a href="#记录LOCK-WRITE报错" class="headerlink" title="记录LOCK_WRITE报错"></a>记录<strong>LOCK_WRITE</strong>报错</h1><p>之前 <strong>RDS</strong> 到期了，把数据库表结构和数据导出放入了服务器本地的mysql中部署，然后任何插入行为都出现了 <strong>LOCK_WRITE</strong>相关的报错</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs xml">### Error updating database. Cause: java.sql.SQLException: The MySQL server is running with the LOCK_WRITE option so it cannot execute this statement ### The error may exist in com/dawnlight/chronicle_dawnlight/mapper/TransactionMapper.xml ### The error may involve defaultParameterMap ### The error occurred while setting parameters ### SQL: INSERT INTO transactions (id, user_id, amount, category_id, type, description, date, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, NOW(), NOW()) ### Cause: java.sql.SQLException: The MySQL server is running with the LOCK_WRITE option so it cannot execute this statement ; uncategorized SQLException; SQL state [HY000]; error code [1290]; The MySQL server is running with the LOCK_WRITE option so it cannot execute this statement; nested exception is java.sql.SQLException: The MySQL server is running with the LOCK_WRITE option so it cannot execute this statement<br></code></pre></td></tr></table></figure><p>后来问ChatGPT4，和deepseek都是检查一系列配置文件或有没有开启<strong>只读模式</strong>等等，结果一切正常</p><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>经过<strong>群内老鸽</strong>和ChatGPT分析</p><p>因为我导入数据的时候执行了批操作，导致可能触发了 <strong>InnoDB 的事务日志保护机制</strong>，导致 <code>LOCK_WRITE</code> 锁定表，防止数据损坏。</p><p><strong>因此</strong></p><p><strong>只需要删除事务日志后重启mysql即可解决问题</strong></p><p><strong>代码实现</strong></p><ol><li><p><strong>先停掉 MySQL</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">sudo</span> systemctl stop mysql<br></code></pre></td></tr></table></figure></li><li><p><strong>删除事务日志文件</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">rm</span> -f /var/lib/mysql/ib_logfile*<br></code></pre></td></tr></table></figure></li><li><p><strong>重启 MySQL</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">sudo</span> systemctl start mysql<br></code></pre></td></tr></table></figure></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>code</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>mysql</tag>
+      
+      <tag>数据库</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Terraria 天顶世界通关纪念</title>
     <link href="/2025/03/12/Terraria-%E5%A4%A9%E9%A1%B6%E4%B8%96%E7%95%8C%E9%80%9A%E5%85%B3%E7%BA%AA%E5%BF%B5/"/>
     <url>/2025/03/12/Terraria-%E5%A4%A9%E9%A1%B6%E4%B8%96%E7%95%8C%E9%80%9A%E5%85%B3%E7%BA%AA%E5%BF%B5/</url>
