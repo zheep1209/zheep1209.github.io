@@ -27,7 +27,7 @@
 <meta property="og:description" content="记录LOCK_WRITE报错之前 RDS 到期了，把数据库表结构和数据导出放入了服务器本地的mysql中部署，然后任何插入行为都出现了 LOCK_WRITE相关的报错 12345678910### Error updating database. Cause: java.sql.SQLException: The MySQL server is running with the LOCK_WRIT">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-03-13T04:12:00.000Z">
-<meta property="article:modified_time" content="2025-03-13T04:23:15.907Z">
+<meta property="article:modified_time" content="2025-03-14T01:42:10.423Z">
 <meta property="article:author" content="西行寺岩羊">
 <meta property="article:tag" content="mysql">
 <meta property="article:tag" content="数据库">
@@ -300,7 +300,7 @@
             
               <div class="markdown-body">
                 
-                <h1 id="记录LOCK-WRITE报错"><a href="#记录LOCK-WRITE报错" class="headerlink" title="记录LOCK_WRITE报错"></a>记录<strong>LOCK_WRITE</strong>报错</h1><p>之前 <strong>RDS</strong> 到期了，把数据库表结构和数据导出放入了服务器本地的mysql中部署，然后任何插入行为都出现了 <strong>LOCK_WRITE</strong>相关的报错</p>
+                <h1 id="记录LOCK-WRITE报错"><a href="#记录LOCK-WRITE报错" class="headerlink" title="记录LOCK_WRITE报错"></a>记录LOCK_WRITE报错</h1><p>之前 <strong>RDS</strong> 到期了，把数据库表结构和数据导出放入了服务器本地的mysql中部署，然后任何插入行为都出现了 <strong>LOCK_WRITE</strong>相关的报错</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs xml">### Error updating database. Cause: java.sql.SQLException: The MySQL server is running with the LOCK_WRITE option so it cannot execute this statement <br>### The error may exist in com/dawnlight/chronicle_dawnlight/mapper/TransactionMapper.xml <br>### The error may involve defaultParameterMap <br>### The error occurred while setting parameters <br>### SQL: INSERT INTO transactions (id, user_id, amount, category_id, type, description, date, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, NOW(), NOW())<br>### Cause: java.sql.SQLException: The MySQL server is running with the LOCK_WRITE option so it cannot execute this statement ; <br>uncategorized SQLException;<br>SQL state [HY000]; error code [1290];<br>The MySQL server is running with the LOCK_WRITE option so it cannot execute this statement;<br>nested exception is java.sql.SQLException: The MySQL server is running with the LOCK_WRITE option so it cannot execute this statement<br></code></pre></td></tr></table></figure>
 
 <p>后来问ChatGPT4，和deepseek都是检查一系列配置文件或有没有开启<strong>只读模式</strong>等等，结果一切正常</p>
