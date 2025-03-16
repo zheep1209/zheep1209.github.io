@@ -14,7 +14,7 @@ async function fetchData() {
 
     // 创建一个新的元素来显示数据
     const dataElement = document.createElement("div");
-    dataElement.textContent = `单词数: ${learnNum} | 复习数: ${reviewNum} | 学习时间: ${duration} 分钟`;
+    dataElement.textContent = `不背单词今日数据：单词数: ${learnNum} | 复习数: ${reviewNum} | 学习时间: ${duration} 分钟`;
 
     // 设置样式
     dataElement.style.fontSize = "14px";
