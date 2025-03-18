@@ -1,4 +1,4 @@
-const url = "https://47.120.43.70:5000/api/bbdc";
+const url = "https://linux.zheep.top:5000/api/bbdc";
 
 async function fetchData() {
   try {
