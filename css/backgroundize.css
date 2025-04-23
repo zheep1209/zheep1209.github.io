@@ -1,11 +1,12 @@
 :root {
   --mobile-bg-image: url('https://zheep.oss-cn-beijing.aliyuncs.com/blog/mobile%20Picture.jpg');
-  --desktop-bg-image-normal: url('https://zheep.oss-cn-beijing.aliyuncs.com/blog/background.jpg');
+  --desktop-bg-image-normal: url('https://images.alphacoders.com/109/109513.jpg');
   --desktop-bg-image-night: url('https://zheep.oss-cn-beijing.aliyuncs.com/%E5%AD%A4%E7%8B%AC2.jpg');
 }
 
 #web_bg {
   background-image: var(--desktop-bg-image-normal);
+  background-position: center;
   position: fixed;
   width: 100%;
   height: 100%;
