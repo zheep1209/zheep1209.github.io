@@ -4,3 +4,39 @@
     color: #ffffff;
   }
 }
+.home{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: left;
+  flex-wrap: wrap;
+}
+@media (max-width: 767px) {
+  .home {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+@media (min-width: 768px) {
+  .home{
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .home {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .home {
+    max-width: 1140px;
+  }
+}
+.left{
+  width: 30%;
+}
+.right{
+  width: 70%;
+  display: flex;
+  justify-content:space-between;
+}
