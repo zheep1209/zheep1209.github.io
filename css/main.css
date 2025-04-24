@@ -783,7 +783,7 @@ html {
 html,
 body {
   height: 100%;
-  font-family: var(--font-family-sans-serif);
+  font-family: 华文中宋;
   overflow-wrap: break-word;
 }
 body {
@@ -874,7 +874,7 @@ i.iconfont {
   }
   :root:not([data-user-color-scheme]) {
     --body-bg-color: #181c27;
-    --board-bg-color: #00000080;
+    --board-bg-color: #252d38;
     --text-color: #c4c6c9;
     --sec-text-color: #a7a9ad;
     --post-text-color: #c4c6c9;
@@ -928,7 +928,7 @@ i.iconfont {
 @media not print {
   [data-user-color-scheme="dark"] {
     --body-bg-color: #181c27;
-    --board-bg-color: #00000080;
+    --board-bg-color: #252d38;
     --text-color: #c4c6c9;
     --sec-text-color: #a7a9ad;
     --post-text-color: #c4c6c9;
@@ -1436,7 +1436,7 @@ figure.highlight td.code > pre {
 .markdown-body {
   font-size: 1rem;
   line-height: 1.6;
-  font-family: var(--font-family-sans-serif);
+  font-family: 华文中宋;
   margin-bottom: 2rem;
   color: var(--post-text-color);
 }
