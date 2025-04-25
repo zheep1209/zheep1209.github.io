@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.zheep.top/2024/05/20/%E6%9B%BE%E7%BB%8F%E6%8A%BD%E9%A3%8E%E5%86%99%E7%9A%84About/</loc>
+    
+    <lastmod>2025-04-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.zheep.top/2024/12/14/%E3%80%8A%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BD%95%E8%A6%81%E7%9D%A1%E8%A7%89%E3%80%8B/</loc>
+    
+    <lastmod>2025-04-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.zheep.top/2024/11/27/%E5%AE%9E%E7%8E%B0Spring%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6/</loc>
     
     <lastmod>2025-04-24</lastmod>
@@ -21,15 +39,6 @@
   
   <url>
     <loc>https://www.zheep.top/about/index.html</loc>
-    
-    <lastmod>2025-04-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zheep.top/2024/05/20/%E6%9B%BE%E7%BB%8F%E6%8A%BD%E9%A3%8E%E5%86%99%E7%9A%84About/</loc>
     
     <lastmod>2025-04-24</lastmod>
     
@@ -398,15 +407,6 @@
   </url>
   
   <url>
-    <loc>https://www.zheep.top/2024/12/14/%E3%80%8A%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BD%95%E8%A6%81%E7%9D%A1%E8%A7%89%E3%80%8B/</loc>
-    
-    <lastmod>2025-04-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.zheep.top/2024/12/08/Linux%E7%BE%8E%E5%8C%96%E5%BC%80%E6%9C%BA%E6%AC%A2%E8%BF%8E%E8%AF%AD%E5%B9%B6%E4%BD%BF%E7%94%A8Python%E8%8E%B7%E5%8F%96Ip%E8%B0%83%E7%94%A8%E5%A4%A9%E6%B0%94/</loc>
     
     <lastmod>2025-04-23</lastmod>
@@ -677,13 +677,6 @@
   
   <url>
     <loc>https://www.zheep.top/categories/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2025-04-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.zheep.top/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2025-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
