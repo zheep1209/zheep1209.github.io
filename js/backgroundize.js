@@ -14,13 +14,20 @@ function getThemeMode() {
 function setBackgroundImage(themeMode) {
   const isMobile = window.innerWidth < 768;
   const webBgElement = document.querySelector('#web_bg');
-
-  if (isMobile) {
-    webBgElement.style.backgroundImage = `var(--mobile-bg-image)`;
-  } else if (themeMode === 'dark') {
-    webBgElement.style.backgroundImage = `var(--desktop-bg-image-night)`;
+  const dropdownItem = document.querySelectorAll('.dropdown-menu');
+  // if (isMobile) {
+    // webBgElement.style.backgroundImage = `var(--mobile-bg-image)`;
+// } else
+   if (themeMode === 'dark') {
+     webBgElement.style.background = `#1A1A1A`
+     dropdownItem[0].style.boxShadow = `0 0 5px #000`
+     dropdownItem[1].style.boxShadow = `0 0 5px #000`
+    // webBgElement.style.backgroundImage = `var(--desktop-bg-image-night)`;
   } else {
-    webBgElement.style.backgroundImage = `var(--desktop-bg-image-normal)`;
+     webBgElement.style.background = `#fff`
+     dropdownItem[0].style.boxShadow = `0 0 5px #999`
+     dropdownItem[1].style.boxShadow = `0 0 5px #999`
+    // webBgElement.style.backgroundImage = `var(--desktop-bg-image-normal)`;
   }
 }
 

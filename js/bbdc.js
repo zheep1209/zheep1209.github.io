@@ -24,7 +24,7 @@ async function fetchData() {
       dataElement.style.fontSize = "14px";
       dataElement.style.textAlign = "center";
       dataElement.style.marginTop = "10px";
-      dataElement.style.color = "#fff";  // 设置文字颜色
+      dataElement.style.color = "#333";  // 设置文字颜色
 
       // 获取容器并插入新元素
       const container = document.querySelector(".banner-text.text-center.fade-in-up");

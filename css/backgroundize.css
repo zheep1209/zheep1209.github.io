@@ -5,7 +5,8 @@
 }
 
 #web_bg {
-  background-image: var(--desktop-bg-image-normal);
+  /*background-image: var(--desktop-bg-image-normal);*/
+  background-color: #fff;
   background-position: center;
   position: fixed;
   width: 100%;
@@ -15,3 +16,9 @@
   /* 添加过渡效果 */
   transition: all 0.5s;
 }
+/*#web_bg::after {*/
+/*  background-color: #fff;*/
+/*}*/
+/*#subtitle{*/
+/*  color: #000;*/
+/*}*/
