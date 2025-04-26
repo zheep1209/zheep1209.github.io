@@ -2265,6 +2265,9 @@ input[type=checkbox] {
   text-overflow: ellipsis;
   overflow: hidden;
 }
+.link-group-title {
+  font-weight: bold;
+}
 @media (max-width: 767px) {
   .links {
     display: flex;

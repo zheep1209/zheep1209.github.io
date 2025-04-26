@@ -1,14 +1,14 @@
-const url = "http://47.120.43.70:8080/tools/bbdc";
+const url = "https://linux.zheep.top:8080/tools/bbdc";
 
 async function fetchData() {
   try {
     const response = await fetch(url);
     const data = JSON.parse((await response.json()).data); // 直接解析为对象
-    console.log(data);  // 打印出完整的返回数据，查看其结构
+    // console.log(data);  // 打印出完整的返回数据，查看其结构
 
     // 确保 data.data_body 和 data.data_body.learnList, data.data_body.durationList 存在
     if (data.data_body && Array.isArray(data.data_body.learnList) && Array.isArray(data.data_body.durationList)) {
-      console.log("存在")
+      //   console.log("存在")
       const todayData = data.data_body.learnList.find(item => item.date === "今日");
       const todayDuration = data.data_body.durationList.find(item => item.date === "今日");
 

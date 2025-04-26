@@ -2,7 +2,7 @@ var OriginTitle = document.title;
 var titleTime;
 document.addEventListener('visibilitychange', function () {
   if (document.hidden) {
-    document.title = '哎呦~你干嘛~ - ' + OriginTitle;
+    document.title = '明日隔山岳，世事两茫茫 - ' + OriginTitle;
     clearTimeout(titleTime);
   } else {
     document.title = OriginTitle;
