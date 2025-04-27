@@ -21,7 +21,7 @@ function setBackgroundImage(themeMode) {
     dropdownItems[0].style.boxShadow = '0 0 5px #000';
     dropdownItems[1].style.boxShadow = '0 0 5px #000';
   } else {
-    webBgElement.style.background = '#ffffff';
+    webBgElement.style.background = '#FFF';
     dropdownItems[0].style.boxShadow = '0 0 5px #999';
     dropdownItems[1].style.boxShadow = '0 0 5px #999';
   }
