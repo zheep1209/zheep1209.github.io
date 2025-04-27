@@ -1,5 +1,8 @@
 @font-face {
   font-family: "FZJZXF";
-  src: url("/fonts/FZJuZFSJW.ttf") format("truetype");
+  src: url("https://zheep.oss-cn-beijing.aliyuncs.com/blog/fonts/FZ.woff2") format("woff2"),
+  url("https://zheep.oss-cn-beijing.aliyuncs.com/blog/fonts/FZ.woff") format("woff"),
+  url("https://zheep.oss-cn-beijing.aliyuncs.com/blog/fonts/FZ.ttf") format("truetype");
   font-weight: 400;
+  font-display: swap;
 }
