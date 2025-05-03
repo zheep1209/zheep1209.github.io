@@ -1,1 +1,1 @@
-let mainSite="www.zheep.top",localSite="localhost";window.location.hostname===mainSite||window.location.hostname===localSite?console.log("好！很有精神！！！"):window.location.href="https://"+mainSite;
+let mainSite="www.zheep.top",localSite="localhost",demoSite="frp-act.com";window.location.hostname===mainSite||window.location.hostname===localSite||window.location.hostname===demoSite?console.log("好！很有精神！！！"):window.location.href="https://"+mainSite;
