@@ -6,7 +6,7 @@
   <link href="https://www.zheep.top/atom.xml" rel="self"/>
   
   <link href="https://www.zheep.top/"/>
-  <updated>2025-05-07T06:20:16.675Z</updated>
+  <updated>2025-05-08T06:52:08.733Z</updated>
   <id>https://www.zheep.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Spring：Redis</title>
+    <link href="https://www.zheep.top/2025/05/08/Spring%EF%BC%9ARedis/"/>
+    <id>https://www.zheep.top/2025/05/08/Spring%EF%BC%9ARedis/</id>
+    <published>2025-05-08T05:08:21.000Z</published>
+    <updated>2025-05-08T06:52:08.733Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Redis（Remote Dictionary Server）&lt;/strong&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="code" scheme="https://www.zheep.top/categories/code/"/>
+    
+    
+    <category term="Redis" scheme="https://www.zheep.top/tags/Redis/"/>
+    
+    <category term="网站" scheme="https://www.zheep.top/tags/%E7%BD%91%E7%AB%99/"/>
+    
+  </entry>
   
   <entry>
     <title>在Spring项目中使用自定义异常</title>
@@ -46,7 +73,7 @@
     <link href="https://www.zheep.top/2025/05/06/%E6%9B%A6%E5%85%89%E5%BD%95%E7%99%BB%E5%BD%95%E6%A8%A1%E5%9D%97%E6%A6%82%E8%BF%B0/"/>
     <id>https://www.zheep.top/2025/05/06/%E6%9B%A6%E5%85%89%E5%BD%95%E7%99%BB%E5%BD%95%E6%A8%A1%E5%9D%97%E6%A6%82%E8%BF%B0/</id>
     <published>2025-05-06T09:42:59.000Z</published>
-    <updated>2025-05-07T06:23:05.651Z</updated>
+    <updated>2025-05-07T06:29:04.838Z</updated>
     
     
       
@@ -361,32 +388,6 @@
     <summary type="html">&lt;p&gt;概念和编程中的”赋值”很像&lt;br&gt;I am a rabbit.&lt;br&gt;I &amp;#x3D; a rabbit&lt;br&gt;The rabbit is smart.&lt;br&gt;The rabbit &amp;#x3D; smart&lt;/p&gt;
 &lt;p&gt;Linking Verb!&lt;/p&gt;
 &lt;p&gt;The</summary>
-        
-      
-    
-    
-    
-    <category term="英语" scheme="https://www.zheep.top/categories/%E8%8B%B1%E8%AF%AD/"/>
-    
-    
-    <category term="英语/词性/动词" scheme="https://www.zheep.top/tags/%E8%8B%B1%E8%AF%AD-%E8%AF%8D%E6%80%A7-%E5%8A%A8%E8%AF%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使役动词</title>
-    <link href="https://www.zheep.top/2025/04/18/%E4%BD%BF%E5%BD%B9%E5%8A%A8%E8%AF%8D/"/>
-    <id>https://www.zheep.top/2025/04/18/%E4%BD%BF%E5%BD%B9%E5%8A%A8%E8%AF%8D/</id>
-    <published>2025-04-18T07:24:38.211Z</published>
-    <updated>2025-04-18T09:06:27.960Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;As you may &lt;span style=&quot;background:rgba(3, 135, 102, 0.2)&quot;&gt;know&lt;/span&gt;, I usually &lt;span style=&quot;background:rgba(3, 135, 102,</summary>
         
       
     

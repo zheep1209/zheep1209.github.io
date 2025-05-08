@@ -15,8 +15,37 @@
     <atom:link href="https://www.zheep.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>西行寺岩羊的个人博客，动漫，游戏，音乐，游戏，生活随笔，技术分享</description>
-    <pubDate>Wed, 07 May 2025 06:20:16 GMT</pubDate>
+    <pubDate>Thu, 08 May 2025 06:52:08 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Spring：Redis</title>
+      <link>https://www.zheep.top/2025/05/08/Spring%EF%BC%9ARedis/</link>
+      <guid>https://www.zheep.top/2025/05/08/Spring%EF%BC%9ARedis/</guid>
+      <pubDate>Thu, 08 May 2025 05:08:21 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Redis（Remote Dictionary Server）&lt;/strong&gt;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://www.zheep.top/categories/code/">code</category>
+      
+      
+      <category domain="https://www.zheep.top/tags/Redis/">Redis</category>
+      
+      <category domain="https://www.zheep.top/tags/%E7%BD%91%E7%AB%99/">网站</category>
+      
+      
+      <comments>https://www.zheep.top/2025/05/08/Spring%EF%BC%9ARedis/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>在Spring项目中使用自定义异常</title>
@@ -400,34 +429,6 @@
       
       
       <comments>https://www.zheep.top/2025/04/18/%E7%B3%BB%E5%8A%A8%E8%AF%8D/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>使役动词</title>
-      <link>https://www.zheep.top/2025/04/18/%E4%BD%BF%E5%BD%B9%E5%8A%A8%E8%AF%8D/</link>
-      <guid>https://www.zheep.top/2025/04/18/%E4%BD%BF%E5%BD%B9%E5%8A%A8%E8%AF%8D/</guid>
-      <pubDate>Fri, 18 Apr 2025 07:24:38 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;blockquote&gt;
-&lt;p&gt;As you may &lt;span style=&quot;background:rgba(3, 135, 102, 0.2)&quot;&gt;know&lt;/span&gt;, I usually &lt;span style=&quot;background:rgba(3, 135, 102,</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://www.zheep.top/categories/%E8%8B%B1%E8%AF%AD/">英语</category>
-      
-      
-      <category domain="https://www.zheep.top/tags/%E8%8B%B1%E8%AF%AD-%E8%AF%8D%E6%80%A7-%E5%8A%A8%E8%AF%8D/">英语/词性/动词</category>
-      
-      
-      <comments>https://www.zheep.top/2025/04/18/%E4%BD%BF%E5%BD%B9%E5%8A%A8%E8%AF%8D/#disqus_thread</comments>
       
     </item>
     
