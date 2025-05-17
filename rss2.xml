@@ -15,8 +15,29 @@
     <atom:link href="https://www.zheep.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>西行寺岩羊的个人博客，动漫，游戏，音乐，游戏，生活随笔，技术分享</description>
-    <pubDate>Thu, 15 May 2025 12:08:07 GMT</pubDate>
+    <pubDate>Sat, 17 May 2025 13:44:38 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Docker：DockerFile</title>
+      <link>https://www.zheep.top/2025/05/17/Docker%EF%BC%9ADockerFile/</link>
+      <guid>https://www.zheep.top/2025/05/17/Docker%EF%BC%9ADockerFile/</guid>
+      <pubDate>Sat, 17 May 2025 11:18:53 GMT</pubDate>
+      
+      <description>本文详细介绍了 Dockerfile 的基本概念、构建流程、常用指令及其作用，并通过多个实战案例（如基于 Ubuntu 构建含 Nginx、Java 17 和 MySQL 的镜像）讲解了如何编写 Dockerfile、构建镜像、运行容器及卷挂载的操作流程，适合初学者系统学习 Docker 构建实战。</description>
+      
+      
+      
+      
+      <category domain="https://www.zheep.top/categories/code/">code</category>
+      
+      
+      <category domain="https://www.zheep.top/tags/Docker/">Docker</category>
+      
+      
+      <comments>https://www.zheep.top/2025/05/17/Docker%EF%BC%9ADockerFile/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Docker：容器数据卷</title>
@@ -341,33 +362,6 @@
       
       
       <comments>https://www.zheep.top/2025/04/18/%E5%8F%A5%E5%AD%90%E5%88%86%E7%B1%BB/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>倒装句</title>
-      <link>https://www.zheep.top/2025/04/18/%E5%80%92%E8%A3%85%E5%8F%A5/</link>
-      <guid>https://www.zheep.top/2025/04/18/%E5%80%92%E8%A3%85%E5%8F%A5/</guid>
-      <pubDate>Fri, 18 Apr 2025 07:31:46 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h2 id=&quot;完全倒装-谓语动词完全在主语前&quot;&gt;&lt;a href=&quot;#完全倒装-谓语动词完全在主语前&quot; class=&quot;headerlink&quot; title=&quot;完全倒装(谓语动词完全在主语前)&quot;&gt;&lt;/a&gt;完全倒装(谓语动词完全在主语前)&lt;/h2&gt;&lt;h3</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://www.zheep.top/categories/%E8%8B%B1%E8%AF%AD/">英语</category>
-      
-      
-      <category domain="https://www.zheep.top/tags/%E8%8B%B1%E8%AF%AD-%E5%8F%A5%E5%AD%90/">英语/句子</category>
-      
-      
-      <comments>https://www.zheep.top/2025/04/18/%E5%80%92%E8%A3%85%E5%8F%A5/#disqus_thread</comments>
       
     </item>
     
