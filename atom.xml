@@ -6,7 +6,7 @@
   <link href="https://www.zheep.top/atom.xml" rel="self"/>
   
   <link href="https://www.zheep.top/"/>
-  <updated>2025-05-18T14:29:57.614Z</updated>
+  <updated>2025-05-19T13:05:21.520Z</updated>
   <id>https://www.zheep.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.zheep.top/posts/4017790120/"/>
     <id>https://www.zheep.top/posts/4017790120/</id>
     <published>2025-05-18T13:59:48.000Z</published>
-    <updated>2025-05-18T14:29:57.614Z</updated>
+    <updated>2025-05-19T13:05:21.520Z</updated>
     
     
     <summary type="html">本文深入讲解了 Docker 网络的核心概念与原理，包括默认 bridge 网络、自定义网络、容器间通信、veth pair 原理、子网与网关配置，以及实际操作与可视化分析，适合初学者和进阶用户参考学习。</summary>
@@ -40,7 +40,7 @@
     <link href="https://www.zheep.top/posts/2158545144/"/>
     <id>https://www.zheep.top/posts/2158545144/</id>
     <published>2025-05-17T11:18:53.000Z</published>
-    <updated>2025-05-18T02:41:24.336Z</updated>
+    <updated>2025-05-19T13:05:21.506Z</updated>
     
     
     <summary type="html">本文详细介绍了 Dockerfile 的基本概念、构建流程、常用指令及其作用，并通过多个实战案例（如基于 Ubuntu 构建含 Nginx、Java 17 和 MySQL 的镜像）讲解了如何编写 Dockerfile、构建镜像、运行容器及卷挂载的操作流程，适合初学者系统学习 Docker 构建实战。</summary>
@@ -59,7 +59,7 @@
     <link href="https://www.zheep.top/posts/944518175/"/>
     <id>https://www.zheep.top/posts/944518175/</id>
     <published>2025-05-14T10:01:54.000Z</published>
-    <updated>2025-05-17T13:38:34.712Z</updated>
+    <updated>2025-05-19T13:05:21.509Z</updated>
     
     
     <summary type="html">本文详细介绍了 Docker 卷技术，包括匿名挂载、具名挂载和数据卷容器的使用方式，帮助你实现容器数据持久化和共享，并初步介绍了 Dockerfile 的作用。</summary>
@@ -78,7 +78,7 @@
     <link href="https://www.zheep.top/posts/1932302360/"/>
     <id>https://www.zheep.top/posts/1932302360/</id>
     <published>2025-05-14T09:34:44.000Z</published>
-    <updated>2025-05-17T13:23:39.969Z</updated>
+    <updated>2025-05-19T13:05:21.511Z</updated>
     
     
     <summary type="html">本文深入解析了 Docker 镜像的结构与加载原理，包括 UnionFS 分层机制、rootfs 与 bootfs、容器层的形成、镜像的提交与存储引擎等知识，是理解容器构建核心机制的关键一步。</summary>
@@ -97,7 +97,7 @@
     <link href="https://www.zheep.top/posts/34398092/"/>
     <id>https://www.zheep.top/posts/34398092/</id>
     <published>2025-05-11T08:04:10.000Z</published>
-    <updated>2025-05-17T13:23:30.395Z</updated>
+    <updated>2025-05-19T13:05:21.509Z</updated>
     
     
     <summary type="html">本文深入解析了 Docker 镜像的结构与加载原理，包括 UnionFS 分层机制、rootfs 与 bootfs、容器层的形成、镜像的提交与存储引擎等知识，是理解容器构建核心机制的关键一步。</summary>
@@ -116,7 +116,7 @@
     <link href="https://www.zheep.top/posts/1587478215/"/>
     <id>https://www.zheep.top/posts/1587478215/</id>
     <published>2025-05-09T08:05:27.000Z</published>
-    <updated>2025-05-17T13:20:40.191Z</updated>
+    <updated>2025-05-19T13:05:21.519Z</updated>
     
     
     <summary type="html">本文详细讲解了如何使用JWT实现登录状态持久化，通过拦截器进行权限验证，并利用ThreadLocal在请求生命周期内共享用户信息，构建完整的Spring登录认证流程。</summary>
@@ -135,7 +135,7 @@
     <link href="https://www.zheep.top/posts/1509927759/"/>
     <id>https://www.zheep.top/posts/1509927759/</id>
     <published>2025-05-08T05:08:21.000Z</published>
-    <updated>2025-05-17T13:25:22.012Z</updated>
+    <updated>2025-05-19T13:05:21.515Z</updated>
     
     
     <summary type="html">本文介绍了 Redis 的基本特性及常见使用场景，并通过配置本地 Redis 服务与 SpringBoot 的集成，实现验证码的生成、存储、验证及删除，提供完整的工具类与实践代码，适合初学者快速上手 Redis 在实际项目中的使用。</summary>
@@ -156,7 +156,7 @@
     <link href="https://www.zheep.top/posts/1626624342/"/>
     <id>https://www.zheep.top/posts/1626624342/</id>
     <published>2025-05-08T04:39:11.000Z</published>
-    <updated>2025-05-17T13:20:40.206Z</updated>
+    <updated>2025-05-19T13:05:21.521Z</updated>
     
     
     <summary type="html">本文详细讲解了如何使用Spring Mail发送HTML格式的邮箱验证码，结合Redis进行验证码存储和校验，实现安全的用户注册/登录验证流程。</summary>
@@ -175,7 +175,7 @@
     <link href="https://www.zheep.top/posts/1585822579/"/>
     <id>https://www.zheep.top/posts/1585822579/</id>
     <published>2025-05-07T06:21:05.202Z</published>
-    <updated>2025-05-17T13:21:40.810Z</updated>
+    <updated>2025-05-19T13:05:21.517Z</updated>
     
     
     <summary type="html">本文讲解了为什么需要自定义异常及全局异常处理器，介绍了如何通过BaseException实现业务异常的统一抛出与捕获，结合@RestControllerAdvice实现异常统一处理并以JSON格式返回给前端。同时演示了统一响应结果封装类Result的设计，如何针对不同异常类型分别处理，以及继承RuntimeException简化异常声明的实践，适合提升Spring后端异常处理能力。</summary>
@@ -194,7 +194,7 @@
     <link href="https://www.zheep.top/posts/3458421192/"/>
     <id>https://www.zheep.top/posts/3458421192/</id>
     <published>2025-05-06T09:42:59.000Z</published>
-    <updated>2025-05-17T13:20:40.198Z</updated>
+    <updated>2025-05-19T13:09:28.402Z</updated>
     
     
     <summary type="html">本文详细讲解了Spring框架中Controller层、Service层和Mapper层的分工与协作，通过注册登录功能示例展示了注解的使用、接口编程思想、MyBatis操作数据库以及动态SQL多条件查询等核心后端开发技术。</summary>
@@ -213,7 +213,7 @@
     <link href="https://www.zheep.top/posts/1403506308/"/>
     <id>https://www.zheep.top/posts/1403506308/</id>
     <published>2025-04-28T14:33:14.000Z</published>
-    <updated>2025-05-17T13:54:30.776Z</updated>
+    <updated>2025-05-19T13:05:21.523Z</updated>
     
     
     <summary type="html">本文深度解读黑塞经典小说《德米安》，剖析主人公辛克莱从童年困惑到精神觉醒的成长历程，探讨打破社会规训、重构自我认知的四个关键阶段，以及通过贝亚特丽齐、皮斯托留斯和夏娃夫人三重引导最终实现知行合一的心路历程。</summary>
@@ -234,7 +234,7 @@
     <link href="https://www.zheep.top/posts/1613527905/"/>
     <id>https://www.zheep.top/posts/1613527905/</id>
     <published>2025-04-23T14:00:53.000Z</published>
-    <updated>2025-05-17T13:54:30.780Z</updated>
+    <updated>2025-05-19T13:05:21.525Z</updated>
     
     
     <summary type="html">本文总结了《我的情绪为何总被他人左右》的核心方法论，重点解析了ABC情绪模型、三种典型非理性信念以及四步情绪调节法，通过具体案例演示如何识别和替换负面思维模式，建立更健康的情绪反应机制。</summary>
@@ -255,7 +255,7 @@
     <link href="https://www.zheep.top/posts/3292858592/"/>
     <id>https://www.zheep.top/posts/3292858592/</id>
     <published>2025-04-18T10:04:02.000Z</published>
-    <updated>2025-04-27T11:31:04.481Z</updated>
+    <updated>2025-05-19T13:05:21.599Z</updated>
     
     
       
@@ -280,7 +280,7 @@
     <link href="https://www.zheep.top/posts/4256661195/"/>
     <id>https://www.zheep.top/posts/4256661195/</id>
     <published>2025-04-18T07:31:46.446Z</published>
-    <updated>2025-04-18T09:06:27.963Z</updated>
+    <updated>2025-05-19T13:05:21.576Z</updated>
     
     
       
@@ -305,7 +305,7 @@
     <link href="https://www.zheep.top/posts/1731632451/"/>
     <id>https://www.zheep.top/posts/1731632451/</id>
     <published>2025-04-18T07:31:46.444Z</published>
-    <updated>2025-04-23T14:13:02.266Z</updated>
+    <updated>2025-05-19T13:05:21.543Z</updated>
     
     
       
