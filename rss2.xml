@@ -15,8 +15,31 @@
     <atom:link href="https://www.zheep.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>西行寺岩羊的个人博客，动漫，游戏，音乐，游戏，生活随笔，技术分享</description>
-    <pubDate>Mon, 19 May 2025 13:05:21 GMT</pubDate>
+    <pubDate>Wed, 21 May 2025 09:09:18 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>CSS纸张阴影二三事</title>
+      <link>https://www.zheep.top/posts/731037148/</link>
+      <guid>https://www.zheep.top/posts/731037148/</guid>
+      <pubDate>Wed, 21 May 2025 09:09:07 GMT</pubDate>
+      
+      <description>本文分享了作者为博客打造“纸张”风格所用的 CSS 技巧与设计思路，借鉴张鑫旭文章实现纸张弯曲阴影效果，详解了伪元素、box-shadow、z-index 堆叠上下文等相关原理，并给出了解决兼容性与视觉 bug 的方法，适合前端开发者借鉴优化网页视觉体验。</description>
+      
+      
+      
+      
+      <category domain="https://www.zheep.top/categories/code/">code</category>
+      
+      
+      <category domain="https://www.zheep.top/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      <category domain="https://www.zheep.top/tags/CSS/">CSS</category>
+      
+      
+      <comments>https://www.zheep.top/posts/731037148/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Docker：网络</title>
@@ -327,35 +350,6 @@
       
       
       <comments>https://www.zheep.top/posts/4256661195/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>强调</title>
-      <link>https://www.zheep.top/posts/1731632451/</link>
-      <guid>https://www.zheep.top/posts/1731632451/</guid>
-      <pubDate>Fri, 18 Apr 2025 07:31:46 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h2 id=&quot;“口气”&quot;&gt;&lt;a href=&quot;#“口气”&quot; class=&quot;headerlink&quot; title=&quot;“口气”&quot;&gt;&lt;/a&gt;“口气”&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;重度强调部分&lt;/li&gt;
-&lt;li&gt;感叹词&lt;br&gt; Wow&lt;br&gt; Oh my god&lt;br&gt; Bloody</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://www.zheep.top/categories/%E8%8B%B1%E8%AF%AD/">英语</category>
-      
-      
-      <category domain="https://www.zheep.top/tags/%E8%8B%B1%E8%AF%AD-%E5%8F%A5%E5%AD%90/">英语/句子</category>
-      
-      
-      <comments>https://www.zheep.top/posts/1731632451/#disqus_thread</comments>
       
     </item>
     
