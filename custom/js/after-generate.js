@@ -1,0 +1,1 @@
+hexo.extend.generator.register("gen-post-list",(function(t){return t=t.posts.map((t=>({title:t.title,date:t.date.format("YYYY-MM-DD"),path:t.path}))),{path:"js/post-list.js",data:`window.postList = ${JSON.stringify(t,null,2)};`,layout:!1}}));
