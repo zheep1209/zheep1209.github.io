@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>最近在干嘛</title>
+    <link href="/posts/3687767998/"/>
+    <url>/posts/3687767998/</url>
+    
+    <content type="html"><![CDATA[<p>近来因某些事情，和几个同学一起在外面租房子，因外卖太贵（没错，有券也贵），和外卖来来回回就那几种花样，因此我决定自己尝试做饭。<br>首先买了空气炸锅。<br><img src="https://zheep.oss-cn-beijing.aliyuncs.com/blog/cooking/%E8%9B%8B%E6%8C%9E.jpg" alt="蛋挞" title="蛋挞"><br><img src="https://zheep.oss-cn-beijing.aliyuncs.com/blog/cooking/%E8%96%AF%E6%9D%A1.jpg" alt="薯条" title="薯条"><br>后来吃腻了，索性买菜买锅自己做饭<br><img src="https://zheep.oss-cn-beijing.aliyuncs.com/blog/cooking/%E7%82%92%E9%9D%A2%E4%BB%99%E4%BA%BA.jpg" alt="炒面" title="炒面"><br><img src="https://zheep.oss-cn-beijing.aliyuncs.com/blog/cooking/%E5%9C%9F%E8%B1%86%E7%82%92%E9%A6%99%E8%82%A0.jpg" alt="土豆香肠" title="土豆炒香肠"><br>进军肉类<br><img src="https://zheep.oss-cn-beijing.aliyuncs.com/blog/cooking/%E6%B0%B4%E7%85%8E%E4%BA%94%E8%8A%B1%E8%82%89.jpg" alt="水煎五花肉" title="水煎五花肉，成品一言难尽"><br><img src="https://zheep.oss-cn-beijing.aliyuncs.com/blog/cooking/%E5%9C%9F%E8%B1%86%E7%82%96%E7%8C%AA%E8%82%89.jpg" alt="土豆炖猪肉" title="看着不错，其实差点火候"><br>做饭不难，认真跟着网上教程走很难做错，有些东西学会了可以触类旁通，比如葱姜蒜的用法，xx炒肉，肉的提前处理方式和蔬菜如何处理几乎一样，区别就是不同的食材有不同的性质，但是你做多了就会发现都是固定公式。<br>再往上走应该就是创新性或者精益求精了吧，还没到那种境界，暂且不提。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>记录</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>记录</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>当善良成为廉价品：为什么你的帮助换不来感激？</title>
     <link href="/posts/1806355278/"/>
     <url>/posts/1806355278/</url>
@@ -1623,6 +1648,33 @@
     <tags>
       
       <tag>数据结构</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>电影天堂爬虫代码示例</title>
+    <link href="/posts/4130465742/"/>
+    <url>/posts/4130465742/</url>
+    
+    <content type="html"><![CDATA[<h1 id="电影天堂爬虫代码示例"><a href="#电影天堂爬虫代码示例" class="headerlink" title="电影天堂爬虫代码示例"></a>电影天堂爬虫代码示例</h1><hr><h3 id="代码展示"><a href="#代码展示" class="headerlink" title="代码展示"></a>代码展示</h3><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs livecodeserver"><span class="hljs-comment"># 首先获取网站首页html内容，过程省略</span><br><span class="hljs-comment"># 为了防止反爬，将html保存于本地</span><br>f = <span class="hljs-built_in">open</span>(<span class="hljs-string">&#x27;dy2018.html&#x27;</span>, <span class="hljs-string">&#x27;r&#x27;</span>, encoding=<span class="hljs-string">&#x27;utf-8&#x27;</span>)<br>html = f.<span class="hljs-built_in">read</span>()<br>f.<span class="hljs-built_in">close</span>()<br></code></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment"># 将html以标题进行分类</span><br>op = re.<span class="hljs-built_in">compile</span>(<br>    <span class="hljs-string">r&#x27;&lt;div class=&quot;co_area2&quot;(?P&lt;item&gt;.*?)\s*&lt;/div&gt;\s*&lt;/div&gt;&#x27;</span>,<br>    re.S)<br>item = re.findall(op, html)<br></code></pre></td></tr></table></figure><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs ini"><span class="hljs-comment"># 创建总列表用于存储</span><br><span class="hljs-attr">sum_list</span> = []<br></code></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment"># 遍历分类子元素</span><br><span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> item:<br>    op = re.<span class="hljs-built_in">compile</span>(<br>        <span class="hljs-string">r&#x27;.*?&lt;div class=&quot;title_all&quot;&gt;.*?&lt;span style=&quot;float:left;&quot;&gt;(?P&lt;title_name&gt;.*?)&lt;/span&gt;.*?&lt;ul&gt;(?P&lt;ul_content&gt;.*?)&lt;/ul&gt;&#x27;</span>,<br>        re.S)<br>    matches = re.findall(op, i)[<span class="hljs-number">0</span>]<br></code></pre></td></tr></table></figure><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs awk"><span class="hljs-comment"># 清洗title</span><br>re_title = <span class="hljs-string">r&#x27;(?:&lt;a [^&gt;]*&gt;([^&lt;]+)&lt;/a&gt;|([^&lt;]+))&#x27;</span><br>title = re.findall(re_title, matches[<span class="hljs-number">0</span>])[<span class="hljs-number">0</span>]<br><span class="hljs-keyword">if</span> title[<span class="hljs-number">0</span>]:<br>    title = title[<span class="hljs-number">0</span>]<br><span class="hljs-keyword">else</span>:<br>    title = title[<span class="hljs-number">1</span>]<br></code></pre></td></tr></table></figure><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs awk"><span class="hljs-comment"># 清洗ul_content</span><br>to_content_list = <span class="hljs-string">r&#x27;&lt;li&gt;(.*?)&lt;/li&gt;&#x27;</span><br>content_list = re.findall(to_content_list, matches[<span class="hljs-number">1</span>])<br>re_content = <span class="hljs-string">r&quot;&lt;a href=&#x27;(?P&lt;link&gt;.*?)&#x27; title=\&quot;(?P&lt;name&gt;.*?)\&quot;&gt;&quot;</span><br></code></pre></td></tr></table></figure><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs ini"><span class="hljs-comment"># 创建列表接收数据</span><br><span class="hljs-attr">movie_list</span> = []<br></code></pre></td></tr></table></figure><figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs maxima"># 将re_content中的<span class="hljs-built_in">li</span>提取为<span class="hljs-built_in">title</span>和详情页链接link<br><span class="hljs-keyword">for</span> <span class="hljs-built_in">content</span> <span class="hljs-keyword">in</span> content_list:<br>    <span class="hljs-built_in">content</span> = re.findall(re_content, <span class="hljs-built_in">content</span>)<br>    <span class="hljs-keyword">if</span> <span class="hljs-built_in">content</span>:<br>        <span class="hljs-built_in">content</span> = <span class="hljs-built_in">content</span>[<span class="hljs-number">0</span>]<br>        link = <span class="hljs-string">&quot;https://www.dy2018.com/&quot;</span> + <span class="hljs-built_in">content</span>[<span class="hljs-number">0</span>]<br>        movie_title = <span class="hljs-built_in">content</span>[<span class="hljs-number">1</span>]<br></code></pre></td></tr></table></figure><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs ini"><span class="hljs-comment">#添加headers防止反爬</span><br> <span class="hljs-attr">headers</span> = &#123;略&#125;<br> <span class="hljs-attr">req</span> = requests.get(link, headers=headers)<br> <span class="hljs-attr">req.encoding</span> = <span class="hljs-string">&#x27;gbk&#x27;</span><br></code></pre></td></tr></table></figure><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs awk"><span class="hljs-comment"># 获取电影详情页下载地址</span><br>link_list = re.findall(<span class="hljs-string">r&#x27;&lt;td style=&quot;WORD-WRAP: break-word&quot; bgcolor=&quot;#fdfddf&quot;&gt;&lt;a href=&quot;(.*?)&amp;&#x27;</span>, req.text)<br>movie_list.append(&#123;<br>    <span class="hljs-string">&quot;movie_title&quot;</span>: movie_title,<br>    <span class="hljs-string">&quot;link&quot;</span>: link_list<br>&#125;)<br></code></pre></td></tr></table></figure><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs routeros">    # 为列表添加子元素<br>    sum_list.append(<br>        &#123;<br>            <span class="hljs-string">&quot;title&quot;</span>: title,<br>            <span class="hljs-string">&quot;movie_list&quot;</span>: movie_list<br>        &#125;)<br><span class="hljs-comment"># 代码存储至本地</span><br>f = open(<span class="hljs-string">&#x27;dy2018.json&#x27;</span>, <span class="hljs-string">&#x27;w&#x27;</span>, <span class="hljs-attribute">encoding</span>=<span class="hljs-string">&#x27;utf-8&#x27;</span>)<br>f.write(json.dumps(sum_list, <span class="hljs-attribute">ensure_ascii</span>=<span class="hljs-literal">False</span>))<br></code></pre></td></tr></table></figure><hr><h3 id="结果展示"><a href="#结果展示" class="headerlink" title="结果展示"></a>结果展示</h3><figure class="highlight prolog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><code class="hljs prolog">[<br>  &#123;<br>    <span class="hljs-string">&quot;title&quot;</span>: <span class="hljs-string">&quot;2024新片精品&quot;</span>,<br>    <span class="hljs-string">&quot;movie_list&quot;</span>: [<br>      &#123;<br>        <span class="hljs-string">&quot;movie_title&quot;</span>: <span class="hljs-string">&quot;2024年国产6.4分犯罪片《浴火之路》HD国语中英双字&quot;</span>,<br>        <span class="hljs-string">&quot;link&quot;</span>: [<br>          <span class="hljs-string">&quot;magnet:?xt=urn:btih:57eb67973d2dd0e711b989ca6255d9a621b232af&quot;</span><br>        ]<br>      &#125;,<br>      &#123;<br>        <span class="hljs-string">&quot;movie_title&quot;</span>: <span class="hljs-string">&quot;2019年泰国6.2分喜剧片《友情以上》HD泰语中字&quot;</span>,<br>        <span class="hljs-string">&quot;link&quot;</span>: [<br>          <span class="hljs-string">&quot;magnet:?xt=urn:btih:632853d4479bb0e060bbe57a09dcd91275c94529&quot;</span><br>        ]<br>      &#125;,<br>      &#123;<br>        <span class="hljs-string">&quot;movie_title&quot;</span>: <span class="hljs-string">&quot;2024年日本8.5分动画片《蓦然回首》HD日语中字&quot;</span>,<br>        <span class="hljs-string">&quot;link&quot;</span>: [<br>          <span class="hljs-string">&quot;magnet:?xt=urn:btih:e657d8c9e0db74f2ca3d39c2fbb210eb721f8dc7&quot;</span><br>        ]<br>      &#125;,<br>      &#123;<br>......<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>code</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>爬虫</tag>
+      
+      <tag>python</tag>
       
     </tags>
     
