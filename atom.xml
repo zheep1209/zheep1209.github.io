@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>云端的解构者 | 西行寺岩羊的博客</title>
+  <icon>https://www.zheep.top/img/uuz.jpg</icon>
+  <subtitle>以我观物，故物皆著我之色彩</subtitle>
+  <link href="https://www.zheep.top/atom.xml" rel="self"/>
+  
+  <link href="https://www.zheep.top/"/>
+  <updated>2025-08-08T06:07:24.468Z</updated>
+  <id>https://www.zheep.top/</id>
+  
+  <author>
+    <name>西行寺岩羊</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>最近在干嘛</title>
+    <link href="https://www.zheep.top/posts/3687767998/"/>
+    <id>https://www.zheep.top/posts/3687767998/</id>
+    <published>2025-08-03T10:21:46.000Z</published>
+    <updated>2025-08-08T06:07:24.468Z</updated>
+    
+    
+    <summary type="html">吃饭吃饭吃饭吃饭吃饭吃饭吃饭吃饭吃饭吃饭吃饭吃饭吃饭吃饭吃饭吃饭吃饭吃饭</summary>
+    
+    
+    
+    <category term="记录" scheme="https://www.zheep.top/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="记录" scheme="https://www.zheep.top/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>当善良成为廉价品：为什么你的帮助换不来感激？</title>
+    <link href="https://www.zheep.top/posts/1806355278/"/>
+    <id>https://www.zheep.top/posts/1806355278/</id>
+    <published>2025-06-07T14:08:39.000Z</published>
+    <updated>2025-06-07T14:19:58.540Z</updated>
+    
+    
+    <summary type="html">文章探讨了当善意帮助变成习惯时，可能导致被帮助者形成依赖性人格、认知失调甚至敌意，从心理学角度分析了人际关系中的“帮助为何换不来感激”，强调建立边界与自我价值的重要性，拒绝做“免费客服”。</summary>
+    
+    
+    
+    <category term="思考" scheme="https://www.zheep.top/categories/%E6%80%9D%E8%80%83/"/>
+    
+    
+    <category term="随想" scheme="https://www.zheep.top/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Minecraft跨平台服务器搭建记录</title>
+    <link href="https://www.zheep.top/posts/171827315/"/>
+    <id>https://www.zheep.top/posts/171827315/</id>
+    <published>2025-06-04T13:50:50.000Z</published>
+    <updated>2025-06-04T13:51:03.462Z</updated>
+    
+    
+    <summary type="html">详细记录了使用MCSManager搭建 Paper + 基岩版支持的 Minecraft 跨平台服务器的全过程，包括服务端安装、Geyser 插件接入基岩版玩家、核心插件推荐与配置方法，适合新手快速上手部署并拓展服务器功能。</summary>
+    
+    
+    
+    <category term="code" scheme="https://www.zheep.top/categories/code/"/>
+    
+    <category term="游戏" scheme="https://www.zheep.top/categories/code/%E6%B8%B8%E6%88%8F/"/>
+    
+    <category term="记录" scheme="https://www.zheep.top/categories/code/%E6%B8%B8%E6%88%8F/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="Minecraft" scheme="https://www.zheep.top/tags/Minecraft/"/>
+    
+    <category term="服务器" scheme="https://www.zheep.top/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>防弹笔记法（草稿</title>
+    <link href="https://www.zheep.top/posts/959030714/"/>
+    <id>https://www.zheep.top/posts/959030714/</id>
+    <published>2025-05-30T08:16:46.000Z</published>
+    <updated>2025-05-30T08:33:13.417Z</updated>
+    
+    
+    <summary type="html">本文介绍了如何通过防弹笔记法高效管理任务与知识笔记，强调以核心任务为单位整合资料、制定行动流程并动态更新，最终将笔记转化为知识与经验。同时探讨了笔记的生命周期、永久型任务笔记的意义及其分类实践，适用于学习与工作中的长期目标管理。</summary>
+    
+    
+    
+    <category term="阅读" scheme="https://www.zheep.top/categories/%E9%98%85%E8%AF%BB/"/>
+    
+    
+    <category term="读书笔记" scheme="https://www.zheep.top/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CSS纸张阴影二三事</title>
+    <link href="https://www.zheep.top/posts/731037148/"/>
+    <id>https://www.zheep.top/posts/731037148/</id>
+    <published>2025-05-21T09:09:07.000Z</published>
+    <updated>2025-05-21T09:09:18.031Z</updated>
+    
+    
+    <summary type="html">本文分享了作者为博客打造“纸张”风格所用的 CSS 技巧与设计思路，借鉴张鑫旭文章实现纸张弯曲阴影效果，详解了伪元素、box-shadow、z-index 堆叠上下文等相关原理，并给出了解决兼容性与视觉 bug 的方法，适合前端开发者借鉴优化网页视觉体验。</summary>
+    
+    
+    
+    <category term="code" scheme="https://www.zheep.top/categories/code/"/>
+    
+    
+    <category term="前端" scheme="https://www.zheep.top/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="CSS" scheme="https://www.zheep.top/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker：网络</title>
+    <link href="https://www.zheep.top/posts/4017790120/"/>
+    <id>https://www.zheep.top/posts/4017790120/</id>
+    <published>2025-05-18T13:59:48.000Z</published>
+    <updated>2025-05-19T13:05:21.520Z</updated>
+    
+    
+    <summary type="html">本文深入讲解了 Docker 网络的核心概念与原理，包括默认 bridge 网络、自定义网络、容器间通信、veth pair 原理、子网与网关配置，以及实际操作与可视化分析，适合初学者和进阶用户参考学习。</summary>
+    
+    
+    
+    <category term="code" scheme="https://www.zheep.top/categories/code/"/>
+    
+    
+    <category term="Doker" scheme="https://www.zheep.top/tags/Doker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker：DockerFile</title>
+    <link href="https://www.zheep.top/posts/2158545144/"/>
+    <id>https://www.zheep.top/posts/2158545144/</id>
+    <published>2025-05-17T11:18:53.000Z</published>
+    <updated>2025-05-19T13:05:21.506Z</updated>
+    
+    
+    <summary type="html">本文详细介绍了 Dockerfile 的基本概念、构建流程、常用指令及其作用，并通过多个实战案例（如基于 Ubuntu 构建含 Nginx、Java 17 和 MySQL 的镜像）讲解了如何编写 Dockerfile、构建镜像、运行容器及卷挂载的操作流程，适合初学者系统学习 Docker 构建实战。</summary>
+    
+    
+    
+    <category term="code" scheme="https://www.zheep.top/categories/code/"/>
+    
+    
+    <category term="Docker" scheme="https://www.zheep.top/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker：容器数据卷</title>
+    <link href="https://www.zheep.top/posts/944518175/"/>
+    <id>https://www.zheep.top/posts/944518175/</id>
+    <published>2025-05-14T10:01:54.000Z</published>
+    <updated>2025-05-19T13:05:21.509Z</updated>
+    
+    
+    <summary type="html">本文详细介绍了 Docker 卷技术，包括匿名挂载、具名挂载和数据卷容器的使用方式，帮助你实现容器数据持久化和共享，并初步介绍了 Dockerfile 的作用。</summary>
+    
+    
+    
+    <category term="code" scheme="https://www.zheep.top/categories/code/"/>
+    
+    
+    <category term="Doker" scheme="https://www.zheep.top/tags/Doker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker：镜像讲解</title>
+    <link href="https://www.zheep.top/posts/1932302360/"/>
+    <id>https://www.zheep.top/posts/1932302360/</id>
+    <published>2025-05-14T09:34:44.000Z</published>
+    <updated>2025-05-19T13:05:21.511Z</updated>
+    
+    
+    <summary type="html">本文深入解析了 Docker 镜像的结构与加载原理，包括 UnionFS 分层机制、rootfs 与 bootfs、容器层的形成、镜像的提交与存储引擎等知识，是理解容器构建核心机制的关键一步。</summary>
+    
+    
+    
+    <category term="code" scheme="https://www.zheep.top/categories/code/"/>
+    
+    
+    <category term="Doker" scheme="https://www.zheep.top/tags/Doker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker：基本命令</title>
+    <link href="https://www.zheep.top/posts/34398092/"/>
+    <id>https://www.zheep.top/posts/34398092/</id>
+    <published>2025-05-11T08:04:10.000Z</published>
+    <updated>2025-05-19T13:05:21.509Z</updated>
+    
+    
+    <summary type="html">本文深入解析了 Docker 镜像的结构与加载原理，包括 UnionFS 分层机制、rootfs 与 bootfs、容器层的形成、镜像的提交与存储引擎等知识，是理解容器构建核心机制的关键一步。</summary>
+    
+    
+    
+    <category term="code" scheme="https://www.zheep.top/categories/code/"/>
+    
+    
+    <category term="Docker" scheme="https://www.zheep.top/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring：登录后逻辑：JWT、拦截器与ThreadLocal</title>
+    <link href="https://www.zheep.top/posts/1587478215/"/>
+    <id>https://www.zheep.top/posts/1587478215/</id>
+    <published>2025-05-09T08:05:27.000Z</published>
+    <updated>2025-05-19T13:05:21.519Z</updated>
+    
+    
+    <summary type="html">本文详细讲解了如何使用JWT实现登录状态持久化，通过拦截器进行权限验证，并利用ThreadLocal在请求生命周期内共享用户信息，构建完整的Spring登录认证流程。</summary>
+    
+    
+    
+    <category term="code" scheme="https://www.zheep.top/categories/code/"/>
+    
+    
+    <category term="网站" scheme="https://www.zheep.top/tags/%E7%BD%91%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring：Redis</title>
+    <link href="https://www.zheep.top/posts/1509927759/"/>
+    <id>https://www.zheep.top/posts/1509927759/</id>
+    <published>2025-05-08T05:08:21.000Z</published>
+    <updated>2025-05-19T13:05:21.515Z</updated>
+    
+    
+    <summary type="html">本文介绍了 Redis 的基本特性及常见使用场景，并通过配置本地 Redis 服务与 SpringBoot 的集成，实现验证码的生成、存储、验证及删除，提供完整的工具类与实践代码，适合初学者快速上手 Redis 在实际项目中的使用。</summary>
+    
+    
+    
+    <category term="code" scheme="https://www.zheep.top/categories/code/"/>
+    
+    
+    <category term="Redis" scheme="https://www.zheep.top/tags/Redis/"/>
+    
+    <category term="网站" scheme="https://www.zheep.top/tags/%E7%BD%91%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring：邮箱验证码</title>
+    <link href="https://www.zheep.top/posts/1626624342/"/>
+    <id>https://www.zheep.top/posts/1626624342/</id>
+    <published>2025-05-08T04:39:11.000Z</published>
+    <updated>2025-05-19T13:05:21.521Z</updated>
+    
+    
+    <summary type="html">本文详细讲解了如何使用Spring Mail发送HTML格式的邮箱验证码，结合Redis进行验证码存储和校验，实现安全的用户注册/登录验证流程。</summary>
+    
+    
+    
+    <category term="code" scheme="https://www.zheep.top/categories/code/"/>
+    
+    
+    <category term="网站" scheme="https://www.zheep.top/tags/%E7%BD%91%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring：使用自定义异常</title>
+    <link href="https://www.zheep.top/posts/1585822579/"/>
+    <id>https://www.zheep.top/posts/1585822579/</id>
+    <published>2025-05-07T06:21:05.202Z</published>
+    <updated>2025-05-19T13:05:21.517Z</updated>
+    
+    
+    <summary type="html">本文讲解了为什么需要自定义异常及全局异常处理器，介绍了如何通过BaseException实现业务异常的统一抛出与捕获，结合@RestControllerAdvice实现异常统一处理并以JSON格式返回给前端。同时演示了统一响应结果封装类Result的设计，如何针对不同异常类型分别处理，以及继承RuntimeException简化异常声明的实践，适合提升Spring后端异常处理能力。</summary>
+    
+    
+    
+    <category term="code" scheme="https://www.zheep.top/categories/code/"/>
+    
+    
+    <category term="网站" scheme="https://www.zheep.top/tags/%E7%BD%91%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring：整体思路讲解</title>
+    <link href="https://www.zheep.top/posts/3458421192/"/>
+    <id>https://www.zheep.top/posts/3458421192/</id>
+    <published>2025-05-06T09:42:59.000Z</published>
+    <updated>2025-05-19T13:09:28.402Z</updated>
+    
+    
+    <summary type="html">本文详细讲解了Spring框架中Controller层、Service层和Mapper层的分工与协作，通过注册登录功能示例展示了注解的使用、接口编程思想、MyBatis操作数据库以及动态SQL多条件查询等核心后端开发技术。</summary>
+    
+    
+    
+    <category term="code" scheme="https://www.zheep.top/categories/code/"/>
+    
+    
+    <category term="网站" scheme="https://www.zheep.top/tags/%E7%BD%91%E7%AB%99/"/>
+    
+  </entry>
+  
+</feed>

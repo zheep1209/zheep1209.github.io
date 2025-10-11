@@ -1,0 +1,1 @@
+let mainSite="www.zheep.top",localSite="localhost",demoSite="frp-act.com";window.location.hostname!==mainSite&&window.location.hostname!==localSite&&window.location.hostname!==demoSite&&(window.location.href="https://"+mainSite);
