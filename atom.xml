@@ -6,7 +6,7 @@
   <link href="https://www.zheep.top/atom.xml" rel="self"/>
   
   <link href="https://www.zheep.top/"/>
-  <updated>2025-08-08T06:07:24.468Z</updated>
+  <updated>2025-10-12T04:16:55.179Z</updated>
   <id>https://www.zheep.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>武汉</title>
+    <link href="https://www.zheep.top/posts/1438469293/"/>
+    <id>https://www.zheep.top/posts/1438469293/</id>
+    <published>2025-10-12T04:14:37.000Z</published>
+    <updated>2025-10-12T04:16:55.179Z</updated>
+    
+    
+    <summary type="html">一篇关于武汉三日自由行的流水账记录。逛了江汉路、黄鹤楼、户部巷和武汉大学，也探索了辛亥革命纪念馆与昙华林。包含了景点感受、实用避坑指南（如江汉路的骗局）以及住宿选址建议，记录一次充满本地烟火气的旅行。</summary>
+    
+    
+    
+    <category term="记录" scheme="https://www.zheep.top/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="旅游" scheme="https://www.zheep.top/tags/%E6%97%85%E6%B8%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>最近在干嘛</title>
@@ -248,9 +267,9 @@
     <category term="code" scheme="https://www.zheep.top/categories/code/"/>
     
     
-    <category term="网站" scheme="https://www.zheep.top/tags/%E7%BD%91%E7%AB%99/"/>
-    
     <category term="Redis" scheme="https://www.zheep.top/tags/Redis/"/>
+    
+    <category term="网站" scheme="https://www.zheep.top/tags/%E7%BD%91%E7%AB%99/"/>
     
   </entry>
   
@@ -282,25 +301,6 @@
     
     
     <summary type="html">本文讲解了为什么需要自定义异常及全局异常处理器，介绍了如何通过BaseException实现业务异常的统一抛出与捕获，结合@RestControllerAdvice实现异常统一处理并以JSON格式返回给前端。同时演示了统一响应结果封装类Result的设计，如何针对不同异常类型分别处理，以及继承RuntimeException简化异常声明的实践，适合提升Spring后端异常处理能力。</summary>
-    
-    
-    
-    <category term="code" scheme="https://www.zheep.top/categories/code/"/>
-    
-    
-    <category term="网站" scheme="https://www.zheep.top/tags/%E7%BD%91%E7%AB%99/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Spring：整体思路讲解</title>
-    <link href="https://www.zheep.top/posts/3458421192/"/>
-    <id>https://www.zheep.top/posts/3458421192/</id>
-    <published>2025-05-06T09:42:59.000Z</published>
-    <updated>2025-05-19T13:09:28.402Z</updated>
-    
-    
-    <summary type="html">本文详细讲解了Spring框架中Controller层、Service层和Mapper层的分工与协作，通过注册登录功能示例展示了注解的使用、接口编程思想、MyBatis操作数据库以及动态SQL多条件查询等核心后端开发技术。</summary>
     
     
     

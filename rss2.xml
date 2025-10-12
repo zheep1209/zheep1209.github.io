@@ -15,8 +15,29 @@
     <atom:link href="https://www.zheep.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>西行寺岩羊的个人博客，动漫，游戏，音乐，游戏，生活随笔，技术分享</description>
-    <pubDate>Fri, 08 Aug 2025 06:07:24 GMT</pubDate>
+    <pubDate>Sun, 12 Oct 2025 04:16:55 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>武汉</title>
+      <link>https://www.zheep.top/posts/1438469293/</link>
+      <guid>https://www.zheep.top/posts/1438469293/</guid>
+      <pubDate>Sun, 12 Oct 2025 04:14:37 GMT</pubDate>
+      
+      <description>一篇关于武汉三日自由行的流水账记录。逛了江汉路、黄鹤楼、户部巷和武汉大学，也探索了辛亥革命纪念馆与昙华林。包含了景点感受、实用避坑指南（如江汉路的骗局）以及住宿选址建议，记录一次充满本地烟火气的旅行。</description>
+      
+      
+      
+      
+      <category domain="https://www.zheep.top/categories/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      
+      <category domain="https://www.zheep.top/tags/%E6%97%85%E6%B8%B8/">旅游</category>
+      
+      
+      <comments>https://www.zheep.top/posts/1438469293/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>最近在干嘛</title>
@@ -271,9 +292,9 @@
       <category domain="https://www.zheep.top/categories/code/">code</category>
       
       
-      <category domain="https://www.zheep.top/tags/%E7%BD%91%E7%AB%99/">网站</category>
-      
       <category domain="https://www.zheep.top/tags/Redis/">Redis</category>
+      
+      <category domain="https://www.zheep.top/tags/%E7%BD%91%E7%AB%99/">网站</category>
       
       
       <comments>https://www.zheep.top/posts/1509927759/#disqus_thread</comments>
@@ -319,27 +340,6 @@
       
       
       <comments>https://www.zheep.top/posts/1585822579/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Spring：整体思路讲解</title>
-      <link>https://www.zheep.top/posts/3458421192/</link>
-      <guid>https://www.zheep.top/posts/3458421192/</guid>
-      <pubDate>Tue, 06 May 2025 09:42:59 GMT</pubDate>
-      
-      <description>本文详细讲解了Spring框架中Controller层、Service层和Mapper层的分工与协作，通过注册登录功能示例展示了注解的使用、接口编程思想、MyBatis操作数据库以及动态SQL多条件查询等核心后端开发技术。</description>
-      
-      
-      
-      
-      <category domain="https://www.zheep.top/categories/code/">code</category>
-      
-      
-      <category domain="https://www.zheep.top/tags/%E7%BD%91%E7%AB%99/">网站</category>
-      
-      
-      <comments>https://www.zheep.top/posts/3458421192/#disqus_thread</comments>
       
     </item>
     
