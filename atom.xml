@@ -6,7 +6,7 @@
   <link href="https://www.zheep.top/atom.xml" rel="self"/>
   
   <link href="https://www.zheep.top/"/>
-  <updated>2025-10-12T04:28:22.488Z</updated>
+  <updated>2025-10-13T04:47:20.921Z</updated>
   <id>https://www.zheep.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>炸鸡</title>
+    <link href="https://www.zheep.top/posts/2191348735/"/>
+    <id>https://www.zheep.top/posts/2191348735/</id>
+    <published>2025-10-13T04:47:18.000Z</published>
+    <updated>2025-10-13T04:47:20.921Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;不收徒，纯馋人&lt;br&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="记录" scheme="https://www.zheep.top/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="美食" scheme="https://www.zheep.top/tags/%E7%BE%8E%E9%A3%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>武汉</title>
@@ -282,25 +307,6 @@
     
     
     <summary type="html">本文详细讲解了如何使用Spring Mail发送HTML格式的邮箱验证码，结合Redis进行验证码存储和校验，实现安全的用户注册/登录验证流程。</summary>
-    
-    
-    
-    <category term="code" scheme="https://www.zheep.top/categories/code/"/>
-    
-    
-    <category term="网站" scheme="https://www.zheep.top/tags/%E7%BD%91%E7%AB%99/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Spring：使用自定义异常</title>
-    <link href="https://www.zheep.top/posts/1585822579/"/>
-    <id>https://www.zheep.top/posts/1585822579/</id>
-    <published>2025-05-07T06:21:05.202Z</published>
-    <updated>2025-05-19T13:05:21.517Z</updated>
-    
-    
-    <summary type="html">本文讲解了为什么需要自定义异常及全局异常处理器，介绍了如何通过BaseException实现业务异常的统一抛出与捕获，结合@RestControllerAdvice实现异常统一处理并以JSON格式返回给前端。同时演示了统一响应结果封装类Result的设计，如何针对不同异常类型分别处理，以及继承RuntimeException简化异常声明的实践，适合提升Spring后端异常处理能力。</summary>
     
     
     

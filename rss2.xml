@@ -15,8 +15,35 @@
     <atom:link href="https://www.zheep.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>西行寺岩羊的个人博客，动漫，游戏，音乐，游戏，生活随笔，技术分享</description>
-    <pubDate>Sun, 12 Oct 2025 04:28:22 GMT</pubDate>
+    <pubDate>Mon, 13 Oct 2025 04:47:20 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>炸鸡</title>
+      <link>https://www.zheep.top/posts/2191348735/</link>
+      <guid>https://www.zheep.top/posts/2191348735/</guid>
+      <pubDate>Mon, 13 Oct 2025 04:47:18 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;不收徒，纯馋人&lt;br&gt;&lt;img</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://www.zheep.top/categories/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      
+      <category domain="https://www.zheep.top/tags/%E7%BE%8E%E9%A3%9F/">美食</category>
+      
+      
+      <comments>https://www.zheep.top/posts/2191348735/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>武汉</title>
@@ -319,27 +346,6 @@
       
       
       <comments>https://www.zheep.top/posts/1626624342/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Spring：使用自定义异常</title>
-      <link>https://www.zheep.top/posts/1585822579/</link>
-      <guid>https://www.zheep.top/posts/1585822579/</guid>
-      <pubDate>Wed, 07 May 2025 06:21:05 GMT</pubDate>
-      
-      <description>本文讲解了为什么需要自定义异常及全局异常处理器，介绍了如何通过BaseException实现业务异常的统一抛出与捕获，结合@RestControllerAdvice实现异常统一处理并以JSON格式返回给前端。同时演示了统一响应结果封装类Result的设计，如何针对不同异常类型分别处理，以及继承RuntimeException简化异常声明的实践，适合提升Spring后端异常处理能力。</description>
-      
-      
-      
-      
-      <category domain="https://www.zheep.top/categories/code/">code</category>
-      
-      
-      <category domain="https://www.zheep.top/tags/%E7%BD%91%E7%AB%99/">网站</category>
-      
-      
-      <comments>https://www.zheep.top/posts/1585822579/#disqus_thread</comments>
       
     </item>
     
