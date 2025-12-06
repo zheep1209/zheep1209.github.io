@@ -15,8 +15,29 @@
     <atom:link href="https://www.zheep.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>西行寺岩羊的个人博客，动漫，游戏，音乐，游戏，生活随笔，技术分享</description>
-    <pubDate>Mon, 13 Oct 2025 04:48:12 GMT</pubDate>
+    <pubDate>Sat, 06 Dec 2025 16:54:57 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>记录：傻逼win11美化插件导致资源管理器崩溃</title>
+      <link>https://www.zheep.top/posts/4274245179/</link>
+      <guid>https://www.zheep.top/posts/4274245179/</guid>
+      <pubDate>Sat, 06 Dec 2025 16:47:30 GMT</pubDate>
+      
+      <description>记录一次因第三方美化插件 ExplorerBlurMica 导致的 Windows 资源管理器反复崩溃故障。通过分析事件查看器日志，定位到 Windows.UI.Xaml.dll 模块异常，并详细展示了如何在注册表中搜索和删除问题插件的完整解决流程，最终成功修复系统。</description>
+      
+      
+      
+      
+      <category domain="https://www.zheep.top/categories/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      
+      <category domain="https://www.zheep.top/tags/%E8%AE%B0%E5%BD%95/">记录</category>
+      
+      
+      <comments>https://www.zheep.top/posts/4274245179/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>炸鸡</title>
@@ -325,27 +346,6 @@
       
       
       <comments>https://www.zheep.top/posts/1509927759/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Spring：邮箱验证码</title>
-      <link>https://www.zheep.top/posts/1626624342/</link>
-      <guid>https://www.zheep.top/posts/1626624342/</guid>
-      <pubDate>Thu, 08 May 2025 04:39:11 GMT</pubDate>
-      
-      <description>本文详细讲解了如何使用Spring Mail发送HTML格式的邮箱验证码，结合Redis进行验证码存储和校验，实现安全的用户注册/登录验证流程。</description>
-      
-      
-      
-      
-      <category domain="https://www.zheep.top/categories/code/">code</category>
-      
-      
-      <category domain="https://www.zheep.top/tags/%E7%BD%91%E7%AB%99/">网站</category>
-      
-      
-      <comments>https://www.zheep.top/posts/1626624342/#disqus_thread</comments>
       
     </item>
     

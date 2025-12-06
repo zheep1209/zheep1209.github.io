@@ -6,7 +6,7 @@
   <link href="https://www.zheep.top/atom.xml" rel="self"/>
   
   <link href="https://www.zheep.top/"/>
-  <updated>2025-10-13T04:48:12.894Z</updated>
+  <updated>2025-12-06T16:54:57.037Z</updated>
   <id>https://www.zheep.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记录：傻逼win11美化插件导致资源管理器崩溃</title>
+    <link href="https://www.zheep.top/posts/4274245179/"/>
+    <id>https://www.zheep.top/posts/4274245179/</id>
+    <published>2025-12-06T16:47:30.000Z</published>
+    <updated>2025-12-06T16:54:57.037Z</updated>
+    
+    
+    <summary type="html">记录一次因第三方美化插件 ExplorerBlurMica 导致的 Windows 资源管理器反复崩溃故障。通过分析事件查看器日志，定位到 Windows.UI.Xaml.dll 模块异常，并详细展示了如何在注册表中搜索和删除问题插件的完整解决流程，最终成功修复系统。</summary>
+    
+    
+    
+    <category term="记录" scheme="https://www.zheep.top/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="记录" scheme="https://www.zheep.top/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
   
   <entry>
     <title>炸鸡</title>
@@ -293,25 +312,6 @@
     
     
     <category term="Redis" scheme="https://www.zheep.top/tags/Redis/"/>
-    
-    <category term="网站" scheme="https://www.zheep.top/tags/%E7%BD%91%E7%AB%99/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Spring：邮箱验证码</title>
-    <link href="https://www.zheep.top/posts/1626624342/"/>
-    <id>https://www.zheep.top/posts/1626624342/</id>
-    <published>2025-05-08T04:39:11.000Z</published>
-    <updated>2025-05-19T13:05:21.521Z</updated>
-    
-    
-    <summary type="html">本文详细讲解了如何使用Spring Mail发送HTML格式的邮箱验证码，结合Redis进行验证码存储和校验，实现安全的用户注册/登录验证流程。</summary>
-    
-    
-    
-    <category term="code" scheme="https://www.zheep.top/categories/code/"/>
-    
     
     <category term="网站" scheme="https://www.zheep.top/tags/%E7%BD%91%E7%AB%99/"/>
     
