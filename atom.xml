@@ -6,7 +6,7 @@
   <link href="https://www.zheep.top/atom.xml" rel="self"/>
   
   <link href="https://www.zheep.top/"/>
-  <updated>2025-12-06T16:54:57.037Z</updated>
+  <updated>2026-08-14T15:50:51.395Z</updated>
   <id>https://www.zheep.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>苏州</title>
+    <link href="https://www.zheep.top/posts/734235605/"/>
+    <id>https://www.zheep.top/posts/734235605/</id>
+    <published>2026-08-14T15:12:06.000Z</published>
+    <updated>2026-08-14T15:50:51.395Z</updated>
+    
+    
+    <summary type="html">一篇关于苏州几日游的随性记录。逛了拙政园、留园、网师园等苏州园林，也去了寒山寺、明月古寺、山塘街和金鸡湖。分享了苏式面的汤底讲究（宽汤、紧汤、免青、重青）和浇头吃法（过桥、底浇），记录了响油鳝糊、酒酿乌米红烧肉等特色美食的体验，以及寒山寺网红化后的失落感与明月古寺的意外惊喜。包含景点感受、实用游览建议（如工作日清晨逛园林），是一次充满真实体验的苏州慢行记。</summary>
+    
+    
+    
+    <category term="记录" scheme="https://www.zheep.top/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="旅游" scheme="https://www.zheep.top/tags/%E6%97%85%E6%B8%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>记录：傻逼win11美化插件导致资源管理器崩溃</title>
@@ -65,7 +84,7 @@
     <link href="https://www.zheep.top/posts/1438469293/"/>
     <id>https://www.zheep.top/posts/1438469293/</id>
     <published>2025-10-12T04:14:37.000Z</published>
-    <updated>2025-10-12T04:28:22.488Z</updated>
+    <updated>2026-08-14T15:43:17.799Z</updated>
     
     
     <summary type="html">一篇关于武汉三日自由行的流水账记录。逛了江汉路、黄鹤楼、户部巷和武汉大学，也探索了辛亥革命纪念馆与昙华林。包含了景点感受、实用避坑指南（如江汉路的骗局）以及住宿选址建议，记录一次充满本地烟火气的旅行。</summary>
@@ -291,27 +310,6 @@
     
     <category term="code" scheme="https://www.zheep.top/categories/code/"/>
     
-    
-    <category term="网站" scheme="https://www.zheep.top/tags/%E7%BD%91%E7%AB%99/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Spring：Redis</title>
-    <link href="https://www.zheep.top/posts/1509927759/"/>
-    <id>https://www.zheep.top/posts/1509927759/</id>
-    <published>2025-05-08T05:08:21.000Z</published>
-    <updated>2025-05-19T13:05:21.515Z</updated>
-    
-    
-    <summary type="html">本文介绍了 Redis 的基本特性及常见使用场景，并通过配置本地 Redis 服务与 SpringBoot 的集成，实现验证码的生成、存储、验证及删除，提供完整的工具类与实践代码，适合初学者快速上手 Redis 在实际项目中的使用。</summary>
-    
-    
-    
-    <category term="code" scheme="https://www.zheep.top/categories/code/"/>
-    
-    
-    <category term="Redis" scheme="https://www.zheep.top/tags/Redis/"/>
     
     <category term="网站" scheme="https://www.zheep.top/tags/%E7%BD%91%E7%AB%99/"/>
     
